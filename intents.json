@@ -1,0 +1,369 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "prompts": [
+        "Hello there!",
+        "Hiiii",
+        "Hey, how's it going?",
+        "Good morning!",
+        "Good afternoon!",
+        "Good evening!",
+        "Anyone there?",
+        "Hey, stranger!",
+        "Howdy!",
+        "Yo, what's up?"
+      ],
+      "responses": ["Hello", "How can I help you today", "Hi there"]
+    },
+    {
+      "tag": "name",
+      "prompts": [
+        "name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am I chatting to",
+        "who am I taking to",
+        "what are you"
+      ],
+      "responses": [
+        "Hey I am BotSom",
+        "I am called BotSom",
+        "You can call me BotSom",
+        "BotSom"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "prompts": [
+        "Goodbye",
+        "Bye-bye",
+        "See you later",
+        "Catch you later",
+        "So long",
+        "Until next time",
+        "Take care",
+        "Have a good one",
+        "It was nice talking to you",
+        "Farewell",
+        "Adios",
+        "Hasta la vista",
+        "Later, gator",
+        "Peace out",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Bye-bye! Take care.",
+        "See you later! Come back anytime.",
+        "Catch you later! I'll be here when you need me.",
+        "So long! Thanks for chatting.",
+        "Until next time! Take care of yourself.",
+        "Take care! Stay safe and healthy.",
+        "Have a good one! It was nice talking to you.",
+        "It was nice chatting with you too. Goodbye!",
+        "Farewell! I hope to talk to you again soon.",
+        "Adios! Hasta la vista."
+      ]
+    },
+    {
+      "tag": "address",
+      "prompts": [
+        "Where is the college?",
+        "What is the postal address of the college?",
+        "Address?",
+        "Location?",
+        "Where is it located?",
+        "Your address?",
+        "Where exactly is it?",
+        "Where can I find the address?",
+        "Where should I come?"
+      ],
+      "responses": [
+        "We are located at Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077",
+        "You can find us at Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077",
+        "Our address is Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077"
+      ]
+    },
+    {
+      "tag": "course",
+      "prompts": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in kjsce",
+        "What are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses you offer",
+        "courses available at KJSCE?",
+        "What are the courses in KJSCE?",
+        "can you tell me the courses available in KJSCE",
+        "different courses",
+        "different departments available",
+        "different departments",
+        "Degree courses offered"
+      ],
+      "responses": [
+        "KJSCE offers several courses including Computer Engineering, Information Technology, Electronics, Mechanical Engineering, and Electronics and Telecommunication. For more information visit https://kjsce.somaiya.edu/en/programme-finder/.",
+        "If you're interested in pursuing engineering, KJSCE has programs in Computer Engineering, Information Technology, Electronics, Mechanical Engineering, and Electronics and Telecommunication. For more information visit https://kjsce.somaiya.edu/en/programme-finder/.",
+        "KJSCE provides a variety of engineering courses, such as Computer Engineering, Information Technology, Electronics, Mechanical Engineering, and Electronics and Telecommunication. For more information visit https://kjsce.somaiya.edu/en/programme-finder/.",
+        "At KJSCE, you have the opportunity to study Computer Engineering, Information Technology, Electronics, Mechanical Engineering, and Electronics and Telecommunication. For more information visit https://kjsce.somaiya.edu/en/programme-finder/.",
+        "Looking to specialize in engineering? KJSCE offers programs in Computer Engineering, Information Technology, Electronics, Mechanical Engineering, and Electronics and Telecommunication. For more information visit https://kjsce.somaiya.edu/en/programme-finder/."
+      ]
+    },
+    {
+      "tag": "information",
+      "prompts": [
+        "Can you provide some information about the university?",
+        "What can you tell me about the university?",
+        "Could you describe the university for me?",
+        "I'm interested in learning about the university. What can you tell me?",
+        "What do you know about the university?",
+        "Would you mind sharing some details about the university?",
+        "I'd like to know more about the university. Can you help me out?",
+        "What should I know about the university?",
+        "What are the key features of the university?",
+        "Can you give me a brief overview of the university?"
+      ],
+      "responses": [
+        "Somaiya Vidyavihar University has established itself as a leading educational institution across the globe. It is proudly the first private university in Mumbai. Keeping up with our education standard and constantly evolving, we have opened up an array of options for the students to choose from. To know more about the university, please visit: https://kjsce.somaiya.edu/en ",
+        "Somaiya Vidyavihar University is a top-tier educational institution that has gained recognition across the world. As the first private university in Mumbai, we are committed to upholding the highest standards of education and constantly evolving to meet the changing needs of our students. With a wide range of academic programs to choose from, we offer our students an exceptional learning experience. For more information about our university and the programs we offer, please visit our website at https://kjsce.somaiya.edu/en ",
+        "At Somaiya Vidyavihar University, we take pride in being a renowned educational institution that is recognized globally. Our commitment to providing quality education has earned us a reputation as a leading private university in Mumbai. We offer a diverse range of academic programs, providing our students with numerous options to choose from. To learn more about our university, including our academic programs, research initiatives, and campus life, please visit our website at https://kjsce.somaiya.edu/en."
+      ]
+    },
+    {
+      "tag": "library",
+      "prompts": [
+        "When is the library open?",
+        "When can I access the library books?",
+        "What are the library timings?",
+        "Is the library open on weekends?",
+        "Is the library open on bank holidays?",
+        "Is the library open on the days of examinations?",
+        "What are the lunch timings of the library?",
+        "When can I reach out to the library?",
+        "Library information",
+        "Library?"
+      ],
+      "responses": [
+        "Visit https://kjsce.somaiya.edu/en/library/overview/ for the library timings",
+        "To know the library timings, check out https://kjsce.somaiya.edu/en/library/overview/",
+        "The library timings can be found at https://kjsce.somaiya.edu/en/library/overview/",
+        "Want to know the timings of the library? Visit https://kjsce.somaiya.edu/en/library/overview/",
+        "Head over to https://kjsce.somaiya.edu/en/library/overview/ to find out the library timings"
+      ]
+    },
+    {
+      "tag": "fees",
+      "prompts": [
+        "information about fees",
+        "information on fees",
+        "tell me the fees",
+        "college fees",
+        "fees per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fees",
+        "what i the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees"
+      ],
+      "responses": [
+        "If you're interested in learning about the fee structure, please visit this link: https://kjsce.somaiya.edu/en/admission/btech.",
+        "For details about the fee structure, please visit this link: https://kjsce.somaiya.edu/en/admission/btech.",
+        "To see the fee structure, click on this link: https://kjsce.somaiya.edu/en/admission/btech.",
+        "If you're curious about the fees, you can find the information at this link: https://kjsce.somaiya.edu/en/admission/btech.",
+        "Follow this link to view the fee structure: https://kjsce.somaiya.edu/en/admission/btech."
+      ]
+    },
+    {
+      "tag": "hours",
+      "prompts": [
+        "What are the typical working hours for professors at a college or university?",
+        "hours?",
+        "What are the working days",
+        "Timings of the college",
+        "Regular hours of operation",
+        "Working hours of admin office",
+        "Contact",
+        "How to contact you",
+        "Queries"
+      ],
+      "responses": [
+        "If you have any questions, please feel free to email us at info.engg@somaiya.edu. You can find more information about our contact details at https://kjsce.somaiya.edu/en/contact-us/.",
+        "For any queries or concerns, please don't hesitate to reach out to us at info.engg@somaiya.edu or visit our website at https://kjsce.somaiya.edu/en/contact-us/ for more information on how to get in touch."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "prompts": [
+        "canteen facilities",
+        "Menu served at the canteen",
+        "Cafeteria",
+        "food quality at the canteen",
+        "Where is the canteen?",
+        "price of the food",
+        "canteen service",
+        "Canteen?",
+        "Food service",
+        "Mess service",
+        "Number of canteens"
+      ],
+      "responses": [
+        "KJ Somaiya is proud to offer a variety of canteens for its students and staff, providing a wide range of delicious food options. From dosas to fried rice, our canteens have something for everyone to enjoy. We take pride in maintaining the quality of our food, which has been a tradition for years.If you're looking for more information about our canteens, we invite you to download our app.You can download the app from the Google Play Store using this link: https://play.google.com/store/apps/details?id=com.canteenapp.canteen_app&hl=en_IN&gl=US&pli=1."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "prompts": [
+        "Financial aid?",
+        "What are the financial aid services offered?",
+        "Financial aid offered?",
+        "financial aid services?",
+        "Scholarships?",
+        "Is there any scholarship provided",
+        "Scholarships provided",
+        "Scholarship procedure",
+        "Financial aid procedure",
+        "Financial help"
+      ],
+      "responses": [
+        "We believe in providing world-class education that's accessible and affordable for all students. That's why we offer Somaiya Scholarships and Financial Aid programs. For more information, please visit: https://financialaid.somaiya.edu/en.",
+        "At Somaiya, we're dedicated to making quality education available to students from all backgrounds. Our Somaiya Scholarships and Financial Aid programs make this possible. To learn more, please visit: https://financialaid.somaiya.edu/en.",
+        "Our goal at Somaiya is to ensure that every student has access to exceptional education, regardless of their financial situation. We offer Somaiya Scholarships and Financial Aid programs to help achieve this goal. To find out more, please visit: https://financialaid.somaiya.edu/en.",
+        "At Somaiya, we're committed to providing affordable and accessible education to all students. We make this possible through our Somaiya Scholarships and Financial Aid programs. For more details, please visit: https://financialaid.somaiya.edu/en.",
+        "We want to make sure that every student has the opportunity to receive a world-class education. That's why we offer Somaiya Scholarships and Financial Aid programs to help with the cost. To learn more, please visit: https://financialaid.somaiya.edu/en."
+      ]
+    },
+    {
+      "tag": "projects",
+      "prompts": [
+        "Projects",
+        "Some of the projects of your college",
+        "What are the mega projects",
+        "Mega projects",
+        "Research work",
+        "Research",
+        "Projects made by your college",
+        "Project work",
+        "Projects of your college",
+        "Tell me about projects"
+      ],
+      "responses": [
+        "You can check out some of the amazing projects created by our college students at https://kjsce.somaiya.edu/en/project-listing/.",
+        "Visit https://kjsce.somaiya.edu/en/project-listing/ to see some of the incredible projects our college students have created.",
+        "Want to see some of the awesome projects made by our college students? Check out https://kjsce.somaiya.edu/en/project-listing/.",
+        "Discover some of the innovative projects made by our college students at https://kjsce.somaiya.edu/en/project-listing/.",
+        "Our college students have worked on some amazing projects, and you can find them listed on https://kjsce.somaiya.edu/en/project-listing/."
+      ]
+    },
+    {
+      "tag": "admission",
+      "prompts": [
+        "What is the process for applying to your university?",
+        "Can you explain how to enroll in your university?",
+        "What steps do I need to follow to apply to your university?",
+        "How can I get admitted to your university?",
+        "What are the admission criteria for your university?",
+        "Could you provide information on how to gain admission to your university?",
+        "What is the procedure for applying to your university?",
+        "Can you walk me through the process of getting into your university?",
+        "What are the requirements for admission to your university?",
+        "Could you outline the application process for your university?"
+      ],
+      "responses": [
+        "Following are the steps to apply at K.J Somaiya College of Engineering:\n 1.Candidates (pursuing HSC 2023 /completed HSC in 2022 or before) willing to pursue B. Tech degree can submit the online preadmission form available on college website (admissions.somaiya.edu) with payment of non-refundable/ non-transferable application fees Rs. 2000/-\n 2. Admission process will be carried out in different phases and rounds based on different entrance examinations: Phases: 1- SAT 2022/2023)/ 2-JEE Main Session (Jan-Feb 2023)/ 3-JEE Main Session-2 (April 2023)/ 4 -PERA-CET 2023/5- MHT-CET 2023/6-CUET 2023. Visit the important dates section on the college website for a schedule of phases/rounds.\n 3. Candidates can apply any one or more than one phases/rounds within the same pre-application (selecting appropriate options in your dashboard) based entrance examinations using the login credentials (registered email and password).\n 4. A provisional seat offered or not offered (based on the merit, programme preference and availability of seats taken together) will be communicated via registered email.\nFor more details, visit: https://kjsce.somaiya.edu/en/admission/ "
+      ]
+    },
+    {
+      "tag": "hostel",
+      "prompts": [
+        "Does the college offer on-campus housing?",
+        "Is there a hostel or dormitory available for students at the college?",
+        "Are there any residential facilities provided by the college?",
+        "Can students live on campus at the college?",
+        "Does the college provide housing options for students?",
+        "Are there any dorms or hostels available for students to stay in while attending the college?",
+        "What are the accommodation options available for students at the college?",
+        "Is there a residence life program or office at the college that manages housing for students?",
+        "Could you tell me more about the housing options for students at the college?",
+        "Are there any special requirements or restrictions for living on campus at the college?"
+      ],
+      "responses": [
+        "Somaiya Vidyavihar has 4 hostels on campus. Students who have got admitted in Somaiya Vidyavihar (SVV) or Somaiya Ayur Vihar (SAV – Sion ) colleges ONLY can be admitted in the hostels of SVV & SAV. For detailed information about our hostels, visit: https://www.somaiya.edu/en/hostel-housing/.",
+        "At Somaiya Vidyavihar, we offer on-campus housing for students who have been admitted to Somaiya Vidyavihar (SVV) or Somaiya Ayur Vihar (SAV) colleges. Our campus has 4 hostels available for eligible students. For more detailed information on our hostels and housing options, please visit our website at https://www.somaiya.edu/en/hostel-housing/.",
+        "If you're looking for on-campus housing options at Somaiya Vidyavihar, we have 4 hostels available exclusively for students admitted to Somaiya Vidyavihar (SVV) or Somaiya Ayur Vihar (SAV) colleges. For more information about our hostels and their amenities, please visit our website at https://www.somaiya.edu/en/hostel-housing/."
+      ]
+    },
+    {
+      "tag": "events",
+      "prompts": [
+        "Events",
+        "Events taking place",
+        "Concerts",
+        "Concerts taking place",
+        "Workshops",
+        "Workshops happening",
+        "Workshops taking place",
+        "Interesting events happenings ",
+        "Seminars",
+        "Seminars taking place",
+        "Seminars happening "
+      ],
+      "responses": [
+        "If you're interested in finding out about upcoming events, workshops, and seminars at KJSCE, please visit https://kjsce.somaiya.edu/en/events-and-updates/events/.",
+        "To stay up-to-date on the latest events, workshops, and seminars at KJSCE, be sure to check out https://kjsce.somaiya.edu/en/events-and-updates/events/.",
+        "Keep yourself informed about upcoming events, workshops, and seminars taking place at KJSCE by visiting https://kjsce.somaiya.edu/en/events-and-updates/events/.",
+        "If you want to stay in the loop about upcoming events, workshops, and seminars at KJSCE, visit https://kjsce.somaiya.edu/en/events-and-updates/events/.",
+        "To stay informed about what's happening at KJSCE, be sure to visit https://kjsce.somaiya.edu/en/events-and-updates/events/ for information on upcoming events, workshops, and seminars."
+      ]
+    },
+    {
+      "tag": "placements",
+      "prompts": [
+        "Is there any placement office?",
+        "Information about placement cells?",
+        "How to reach out to the placement cell?",
+        "College's placement policy",
+        "Some stats about student placements?",
+        "How many companies visit Somaiya for placement?",
+        "What is the role of placement cells in job placement?",
+        "I'm looking for details on placement cells. Could you help me with that?",
+        "Where can I find information about placement cells?"
+      ],
+      "responses": [
+        "The training and placement cell provides placement services to students through campus interviews.Many multinational and well- known Indian conglomerates regularly visit KJSCE for campus placement every year. Training and placement cell motivates and prepares the students for the interviews and prospective workplaces. To know more about this, visit: https://kjsce.somaiya.edu/en/placement/overview",
+        "KJSCE's Training and Placement Cell is committed to providing our students with the best opportunities for employment. Our cell regularly organizes campus interviews with multinational corporations and top Indian conglomerates, giving our students the chance to shine. We also provide our students with the necessary training and guidance to prepare them for the interview process and their future workplaces. For more information on our placement services, please visit our website at https://kjsce.somaiya.edu/en/placement/overview.",
+        "At KJSCE, we believe that our students deserve the best opportunities for employment. That's why our Training and Placement Cell works tirelessly to bring in top companies for campus placement every year. With a focus on motivation and preparation, we aim to equip our students with the skills they need to excel in the job market. For more information on our placement services, please visit our website at https://kjsce.somaiya.edu/en/placement/overview."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "prompts": [
+        "What extracurricular activities are available at the university?",
+        "Could you provide me with information about the university's clubs and organizations?",
+        "What are some of the student groups or associations at the university?",
+        "Are there any special interest clubs or societies at the university?",
+        "Can you tell me more about the cultural or ethnic organizations at the university?",
+        "What kind of sports teams or athletic clubs are available at the university?",
+        "What are the performing arts groups or music clubs at the university?",
+        "Could you provide me with a list of the different clubs and organizations available at the university?",
+        "What kind of volunteer or community service groups are available at the university?",
+        "Can you tell me more about the academic or professional societies at the university?"
+      ],
+      "responses": [
+        "For a dream to be built into reality, it takes more than the efforts of an individual. These are our Student's Associations for every department that voice the opinions and bring to reality the dreams of the students. Some of them include:Computer Society of India KJSCE student chapter\nCodecell KJSCE\nEmfinity\nSahas\nBloombox\nTo check out more information about them, visit our website: https://kjsce.somaiya.edu/en/students-association/ ",
+        "At Somaiya Vidyavihar University, we believe that realizing one's dreams requires collective effort. That's why we have several student associations for each department that are dedicated to amplifying student voices and turning their ideas into reality. Some of our student associations include the Computer Society of India KJSCE student chapter, Codecell KJSCE, Emfinity, Sahas, and Bloombox. For more information on these student associations and others, please visit our website at https://kjsce.somaiya.edu/en/students-association/."
+      ]
+    }
+  ]
+}
