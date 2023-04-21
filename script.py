@@ -1,8 +1,6 @@
 import flask
 import os
 from flask import send_from_directory, request, render_template
-# import pyjokes
-# import randfacts
 import pickle
 import numpy as np
 import nltk
@@ -45,16 +43,11 @@ labelled_data = {0: 'greeting', 1: 'name', 2: 'goodbye', 3: 'address', 4: 'cours
 @app.route('/webhook', methods=['POST','GET'])
 def webhook():
     req = request.get_json(force=True)
-    # content = req['queryResult']['parameters']['content']
-    # if content == 'joke':
-    #     response = pyjokes.get_joke(language = 'en', category = 'neutral' )
-    # elif content == 'fact':
-    #     response = randfacts.get_fact()
-    # else:
-    #     response = "say that again mate!"
     prompt = req['queryResult']['queryText']
     p = loaded_model.decision_function([preprocess(prompt)])
     print(p)
+    ma = p[0][np.argmax(p)]
+    mi = p[0][np.argmin(p)]
     print(np.argmax(p))
     print(labelled_data[np.argmax(p)])
     with open('intents.json') as file:
@@ -62,6 +55,9 @@ def webhook():
     d = data['intents'][np.argmax(p)]
     responses = d['responses']
     answer = random.sample(responses,k=1)[0]
+    print(ma,mi)
+    if ma <= -1 and mi > -2:
+        answer = "Sorry Didn't Get You!"
     return {
         'fulfillmentText': f'{answer}'
     }
